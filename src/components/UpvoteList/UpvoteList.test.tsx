@@ -5,7 +5,8 @@
 import React from "react";
 import "@testing-library/jest-dom";
 import { render, screen, fireEvent, act } from "@testing-library/react";
-import UpvotesList, { useUpvoteStore } from "./UpvoteList";
+import UpvotesList from "./UpvoteList";
+import useUpvoteStore from "./UpvoteListStore";
 
 describe("UpvotesList Button Clicks", () => {
   beforeEach(() => {
