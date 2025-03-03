@@ -6,6 +6,12 @@ This project uses the React + TypeScript + Vite starter.
 - [TailwindCSS](https://tailwindcss.com/) for styling
 - [Zustand](https://zustand.docs.pmnd.rs/) is used for managing and persisting data
 
+## Start Development Server
+```sh
+npm install
+npm run dev
+```
+
 ## Running Tests
 Test for selection change based on the click event provided through the script:
 ```sh
